@@ -1,0 +1,40 @@
+.card {
+  display: flex;
+  background-color: #303030;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+.card img {
+  width: 80px;
+  border-radius: 15px;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+}
+
+.card button {
+  height: fit-content;
+  background: none;
+  border: none;
+  padding: 10px;
+  transition: 0.2s all ease-in-out;
+  cursor: pointer;
+}
+
+.info span {
+  margin-right: 20px;
+  font-size: 0.85rem;
+  color: #959595;
+}
+
+.card button:hover {
+    transform: scale(1.3);
+}
